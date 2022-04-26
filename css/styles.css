@@ -24,10 +24,25 @@ body {
 .link {
   text-decoration: none;
 }
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+ul,ol {
+  margin: 0;
+  padding-left: 0;
+}
+.container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /*-------------header-----------*/
 
 .header {
   background-color: #ffffff;
+  padding-top: 24;
+  padding-bottom: 25;
 }
 .header-logo {
   font-family: Raleway;
@@ -101,6 +116,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: white;
+  max-width: 696px;
+  margin-top: 200px;
+  margin-bottom: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -114,6 +135,8 @@ body {
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
+  width: 200px;
+  margin: 30px 700px 200px 700px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -130,7 +153,7 @@ body {
   color: var(--first-title-color);
 }
 .abt-txt {
-  font-weight: 900;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
