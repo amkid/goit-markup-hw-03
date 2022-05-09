@@ -24,25 +24,10 @@ body {
 .link {
   text-decoration: none;
 }
-p,h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-}
-ul,ol {
-  margin: 0;
-  padding-left: 0;
-}
-.container {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
 /*-------------header-----------*/
 
 .header {
   background-color: #ffffff;
-  padding-top: 24;
-  padding-bottom: 25;
 }
 .header-logo {
   font-family: Raleway;
@@ -78,7 +63,6 @@ ul,ol {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  font-style:normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-color);
@@ -88,8 +72,7 @@ ul,ol {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  font-style:normal;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-color);
 }
@@ -118,16 +101,10 @@ ul,ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: white;
-  max-width: 696px;
-  margin-top: 200px;
-  margin-bottom: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -137,8 +114,6 @@ ul,ol {
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
-  width: 200px;
-  margin: 30px 700px 200px 700px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -147,9 +122,9 @@ ul,ol {
 /*-----------abt-----------*/
 
 .abt-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-title-color);
@@ -163,18 +138,21 @@ ul,ol {
 }
 .abt-img-title,
 .team-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 0.857;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
 /* ----------team--------- */
+.team {
+  background: #F5F4FA;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
@@ -182,7 +160,7 @@ ul,ol {
 .team-prof {
   font-family: Roboto;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--txt-color);
@@ -203,7 +181,6 @@ ul,ol {
 }
 .footer-adress {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   font-style:normal;
   line-height: 1.71;
@@ -212,7 +189,6 @@ ul,ol {
 .footer-mail,
 .footer-tel {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   font-style:normal;
   line-height: 1.71;
@@ -248,7 +224,6 @@ ul,ol {
   color: var(--first-title-color);
 }
 .projects-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
