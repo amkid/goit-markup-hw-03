@@ -19,6 +19,8 @@ body {
   color: #212121;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -90,6 +92,7 @@ body {
 /*-----------hero-----------*/
 
 .hero {
+  text-align: center;
   background: #2f303a;
 }
 .hero-title {
@@ -97,10 +100,14 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: white;
+  outline: 2px solid tomato;
+  margin-top: 0;
+  margin-bottom: 0;
+  
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -109,18 +116,27 @@ body {
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
+  outline: 2px solid tomato;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 .hero-button:hover,
 .hero-button:focus {
   background: #188CE8;
 }
 /*-----------abt-----------*/
-
+.abt {
+  margin-top: 94px;
+}
 .abt-title {
   font-weight: 700;
   font-size: 14px;
@@ -128,6 +144,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-title-color);
+  margin: 0;
 }
 .abt-txt {
   font-weight: 400;
@@ -135,6 +152,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--txt-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.abt-img {
+  margin-top: 94px;
 }
 .abt-img-title,
 .team-title {

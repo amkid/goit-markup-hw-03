@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: aqua;
+    outline: 2px solid tomato;
+    vertical-align: text-bottom;  
+}
+.btn:hover,
+.btn:focus {
+    background-color: coral;
+    color: white;
+}
+.box {
+    margin-top: 20px;
+    padding: 30px;
+    outline: 2px solid tomato;
+}
