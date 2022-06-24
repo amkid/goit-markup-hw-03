@@ -128,7 +128,9 @@ img {
 /*-----------hero-----------*/
 
 .hero {
-  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: 2px solid rgb(105, 240, 27);
   background: #2f303a;
 }
 .hero-title {
@@ -136,34 +138,27 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: white;
   outline: 2px solid tomato;
-  margin-top: 0;
-  margin-bottom: 0;
-  
+  padding-top: 200px;
+  padding-bottom: 30px;
+    
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
-  background-color: #2196f3;
-  outline: 2px solid tomato;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding: 10px 32px;
+  background-color: #188CE8;
+  border-radius: 4px;
   min-width: 200px;
+  margin-bottom: 0;
 }
 .hero-button:hover,
 .hero-button:focus {
