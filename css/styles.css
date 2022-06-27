@@ -129,7 +129,7 @@ img {
 
 .hero {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 280px;
   text-align: center;
@@ -171,7 +171,19 @@ img {
 }
 /*-----------abt-----------*/
 .abt {
-  margin-top: 94px;
+  margin-bottom: 94px;
+ 
+}
+.abt-list {
+  display: flex;
+   
+}
+.abt.size {
+  flex-basis: 270px;
+}
+.abt-dscr:not(:last-child) {
+  margin-right: 30px;
+
 }
 .abt-title {
   font-weight: 700;
@@ -192,10 +204,11 @@ img {
   margin-bottom: 0;
 }
 .abt-img {
-  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .abt-img-title,
 .team-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -206,8 +219,24 @@ img {
 /* ----------team--------- */
 .team {
   background: #F5F4FA;
+  margin-bottom: 94px;
+}
+.team-title-flex {
+  padding-top: 94px;
+  margin: 0 auto 50px auto;
+  
+}
+.team-list {
+  display: flex;
+  flex-basis: 270px;
+}
+.team-img:not(:last-child) {
+  margin-right: 30px;
+
 }
 .team-name {
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -216,6 +245,7 @@ img {
   color: var(--first-title-color);
 }
 .team-prof {
+  padding-bottom: 30px;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.19;
