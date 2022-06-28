@@ -50,6 +50,7 @@ img {
 /*-------------header-----------*/
 
 .header {
+  border-bottom: 1px solid #ECECEC;
   background-color: #ffffff;
 }
 .header-logo {
@@ -129,7 +130,7 @@ img {
 
 .hero {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   padding-top: 200px;
   padding-bottom: 280px;
   text-align: center;
@@ -171,8 +172,9 @@ img {
 }
 /*-----------abt-----------*/
 .abt {
-  margin-bottom: 94px;
- 
+  padding-top: 94px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .abt-list {
   display: flex;
@@ -204,7 +206,10 @@ img {
   margin-bottom: 0;
 }
 .abt-img {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .abt-img-title,
 .team-title {
@@ -219,10 +224,10 @@ img {
 /* ----------team--------- */
 .team {
   background: #F5F4FA;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title-flex {
-  padding-top: 94px;
   margin: 0 auto 50px auto;
   
 }
@@ -266,6 +271,7 @@ img {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  
 }
 .footer-adress {
   font-family: Roboto;
