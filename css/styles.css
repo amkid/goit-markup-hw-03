@@ -299,18 +299,35 @@ img {
 }
 
 /* ----------portfolio-filters--------- */
+.filters {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.filters-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  margin-bottom: 34px;
+}
+.filters-items:not(:last-child) {
+  margin-right: 8px;}
 .filters-button {
+  padding: 8px 22px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  border: none;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--first-title-color);
   background: #F5F4FA;
+  border-radius: 4px;
+  border: none;
 }
 .filters-button:hover,
 .filters-button:focus {
@@ -318,6 +335,7 @@ img {
   background: #2196F3;
 }
 /* ----------portfolio-projects--------- */
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
