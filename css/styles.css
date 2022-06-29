@@ -261,6 +261,8 @@ img {
 
 /* ----------foother--------- */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
@@ -272,6 +274,12 @@ img {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   
+}
+.footer-addr {
+  margin-top: 20px;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-adress {
   font-family: Roboto;
