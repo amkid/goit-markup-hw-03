@@ -374,7 +374,7 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: space-between;
 }
 .projects-item {
   margin-right: 30px;
