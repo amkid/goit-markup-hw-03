@@ -378,9 +378,11 @@ img {
 }
 .projects-item {
   margin-right: 30px;
+
 }
 .projecta-wrapper {
   padding: 20px 24px;
+
 }
 .projects-title {
   font-weight: 700;
@@ -388,12 +390,14 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-title-color);
+
 }
 .projects-txt {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--txt-color);
+  
 }
 .footer-adress:hover,
 .footer-adress:focus,
