@@ -51,7 +51,9 @@ img {
 .link {
   text-decoration: none;
 }
+
 /*--сітка flex-box --*/
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -62,6 +64,7 @@ img {
   margin: calc(var(--indent) / 2);
   flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
 }
+
 /*-------------header-----------*/
 
 .header {
@@ -164,7 +167,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: white;
-  
       
 }
 .hero-button {
@@ -185,7 +187,9 @@ img {
 .hero-button:focus {
   background: #188CE8;
 }
+
 /*-----------abt-----------*/
+
 .abt {
   padding-top: 94px;
   margin-bottom: 0;
@@ -235,7 +239,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
+
 /* ----------team--------- */
+
 .team {
   background: #F5F4FA;
   padding-top: 94px;
@@ -256,10 +262,12 @@ img {
   flex-wrap: wrap;
   margin: calc(-1 * var(--indent) / 2);
 }
+
 .team-img {
   margin: calc(var(--indent) / 2);
   flex-basis: calc((100% - var(var(--indent)) * var(--items) ) / var(--items));
 }*/
+
 .team-dscr {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -286,12 +294,12 @@ img {
 }
 
 /* ----------foother--------- */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
 }
-
 .footer-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -325,6 +333,7 @@ img {
 }
 
 /* ----------portfolio-filters--------- */
+
 .filters {
   margin-top: 0;
   margin-bottom: 0;
@@ -365,6 +374,7 @@ img {
   color: #FFFFFF;
   background: #2196F3;
 }
+
 /* ----------portfolio-projects--------- */
 
 .projects-container {
@@ -399,6 +409,7 @@ img {
   color: var(--txt-color);
   
 }
+
 .footer-adress:hover,
 .footer-adress:focus,
 .footer-tel:hover,
