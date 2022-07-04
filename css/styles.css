@@ -78,6 +78,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -120,6 +121,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-color);
+
   margin-left: auto;
 }
 .header-tel {
@@ -129,6 +131,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-color);
+
   margin-left: 50px;
 }
 
@@ -151,6 +154,7 @@ img {
   margin-bottom: 0;
   padding-top: 200px;
   padding-bottom: 280px;
+
   text-align: center;
   background: #2f303a;
   
@@ -160,6 +164,7 @@ img {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
+
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
@@ -171,6 +176,7 @@ img {
 }
 .hero-button {
   padding: 10px 32px;
+
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -243,12 +249,14 @@ img {
 /* ----------team--------- */
 
 .team {
-  background: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background: #F5F4FA;
 }
 .team-title {
   margin: 0 auto 50px auto;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -276,6 +284,7 @@ img {
 .team-name {
   padding-top: 30px;
   padding-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -285,6 +294,7 @@ img {
 }
 .team-prof {
   padding-bottom: 30px;
+
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.19;
@@ -346,7 +356,6 @@ img {
 }
 .filters-list {
   display: flex;
-  
   padding-bottom: 16px;
   margin-bottom: 34px;
   margin-left: auto;
@@ -356,6 +365,7 @@ img {
   margin-right: 8px;}
 .filters-button {
   padding: 8px 22px;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -375,7 +385,9 @@ img {
   background: #2196F3;
 }
 
+
 /* ----------portfolio-projects--------- */
+
 
 .projects-container {
   display: flex;
